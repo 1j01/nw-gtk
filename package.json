@@ -1,0 +1,39 @@
+{
+  "name": "nw-gtk",
+  "description": "GTK in NW.js",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/1j01/nw-gtk.git"
+  },
+  "bugs": {
+    "url": "http://github.com/1j01/nw-gtk/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "postcss",
+    "gtk",
+    "gtk+",
+    "gtk3",
+    "gtk-css",
+    "react",
+    "components",
+    "component",
+    "theme",
+    "themes",
+    "linux",
+    "gui",
+    "browser",
+    "web"
+  ],
+  "main": "lib/nw-gtk.js",
+  "scripts": {
+    "prepublish": "coffee -o lib/ -c src/",
+    "test": "coffee test/test.coffee"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.1"
+  }
+}
